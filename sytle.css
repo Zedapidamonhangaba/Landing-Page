@@ -48,7 +48,6 @@ main{
 h2{
   font-size: 45px;
   line-height: 10px;
-  font-family: poppinsmedium;
 }
 span{
   color: white;
@@ -58,34 +57,94 @@ p{
   line-height: 20px;
   max-width: 500px;
 }
+
 img{
   width: 300px;
 }
 
 form{
   display: flex;
-  flex-direction: column ;
-  width: 70%;
+  flex-direction: column;
 }
 
 form[type="submit"]{
    height: 50px;
-   width: 50%;
+   width: 100%;
    background-color: yellow;
    color: white;
    font-weight: bold;
+   transition: transform 0.2s;
   }
   form [type="submit"]:hover{
-    height: 50px;
-    width: 50%;
+    background-color: yellow;
+transform: scale(1.1);
     cursor: pointer;
+    border: 1px solid rgb(204, 192, 24);
   }
 
 input{
   margin-top: 20px;
   height: 20px;
-  padding: 20px;
+  padding: 15px;
   border-radius: 20px;
   font-size: 15px;
-  border: none
+  border: 1px solid yellow;
 }
+
+
+
+
+
+
+.enviar{
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.body-two {
+  padding: 20px;
+  background-color: rgba(243, 243, 243, 0.068);
+  color: rgb(255, 255, 255);
+}
+.body-two summary {
+  background-color: rgb(216, 216, 216);
+  padding: 30px;
+  border-bottom: 2px solid #282828;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+details{
+background-color: rgb(148, 148, 148);
+
+}
+
+.duvidas{
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+
+.perguntas h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.p-teste{
+  color: aquamarine;
+  background-color: blueviolet;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  
+}
+
+
+

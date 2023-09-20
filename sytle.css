@@ -4,7 +4,8 @@ body{
     font-family: poppinsregular;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 17px;
+    box-sizing: border-box;
+    padding: 0px;
 }
 header{
     display: flex;
@@ -59,7 +60,10 @@ p{
 }
 
 img{
-  width: 300px;
+  position: relative;
+  left: 200px;
+  top: 30px;
+  width: 400px;
 }
 
 form{
@@ -143,7 +147,79 @@ background-color: rgb(148, 148, 148);
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 20px;
-  
 }
+  
 
+.mapa-dirce iframe{
+margin: 0;
+    height: 300px;
+    width: 100%;
+  }
 
+  .mapa-dirce h1{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    top: 0px ;
+    left: 450px;
+font-weight: bold;
+  }
+
+  </section> .avaliação {
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: rgb(235, 234, 232)
+    }
+
+    .card {
+      height: 400px;
+        background-color: white;
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    .user {
+      position: relative;
+      left: 0px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .stars {
+        font-size: 24px;
+    }
+
+    .avaliação h3{
+      font-size: 20px;
+      text-align: center;
+      justify-content: center;
+      position: relative;
+      top: 20px;
+    }
+
+    .avaliação H1{
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    .avaliação p{
+      font-size: 17px;
+      text-align: center;
+    }
